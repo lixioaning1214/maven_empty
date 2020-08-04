@@ -1,6 +1,15 @@
 package com.lxn.pojo;
 
 public class User {
+    private String address;
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
 
     private Integer uid;
     private String uname;
